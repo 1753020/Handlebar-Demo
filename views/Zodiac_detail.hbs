@@ -1,0 +1,68 @@
+<style type="text/css">
+    img {
+        padding: 10px;
+        height: 300px;
+        justify-content: center;
+
+    }
+
+    .Name {
+        font-family: 'Changa One', cursive;
+        text-align: center;
+    }
+
+    h4 {
+        font-family: 'Changa One', cursive;
+        margin: 5px 0px;
+    }
+
+    .row {
+        margin: 30px;
+        background-color: rgba(0, 255, 255, 0.116);
+    }
+
+    p {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+    }
+</style>
+
+<div class="container-fluid">
+    {{#with zodiac}}
+    <h1 class="Name">
+        {{name}} Characteristic
+    </h1>
+    <div class="row">
+        <img class="col-md-4 " src={{image}}>
+        <div class="col-md-8 conttent">
+            <h4>{{name}}
+            </h4>
+            <br>
+            <p><b style=" font-family:'Changa One', cursive ">Strengths:</b>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut et eos quidem assumenda veritatis
+                molestiae eligendi, commodi, aperiam repellendus dolorum modi, iusto inventore doloremque quod
+                omnis quasi ipsum quis excepturi!>
+            </p>
+            <p><b style="font-family:'Changa One' , cursive">Weakness:</b>
+
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum aut, iste quaerat ad itaque
+                accusamus laudantium similique dolor saepe vitae, distinctio facere illum facilis adipisci,
+                consectetur impedit voluptate quisquam velit?
+            </p>
+            <p><b style=" font-family:'Changa One' , cursive">Like:</b>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aspernatur enim esse impedit
+                ducimus aut iste temporibus aperiam quibusdam magnam, eum commodi voluptates dolores excepturi
+                rem fugiat ipsa. Recusandae, eius.
+            </p>
+
+            <p><b style="font-family:'Changa One', cursive ">Dislike:</b>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio recusandae atque perferendis!
+                Cupiditate, necessitatibus. Laboriosam facilis sint, quibusdam, enim nesciunt, fugit tempore
+                reiciendis odio sapiente iste ducimus libero! Consectetur, quasi!
+            </p>
+        </div>
+    </div>
+    {{/with}}
+</div>

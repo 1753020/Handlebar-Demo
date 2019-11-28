@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <h1 class="title">
+        ZODIAC CHARACTERISTICS
+    </h1>
+    <div class="row d-flex flex-wrap justify-content-center">
+        {{#each zodiac}}
+        <div class="col d-flex flex-column align-items-center">
+           
+            <img class="zo_image" src={{image}}>
+            <a href="Zodiac/{{@index}}">
+                <p class="name">{{name}}</p>
+            </a>
+            <p>{{detail}}</p>
+        </div>
+        {{/each}}
+    </div>
+</div>
